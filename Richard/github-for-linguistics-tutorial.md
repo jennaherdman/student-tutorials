@@ -2,7 +2,7 @@
 title: Github Tutorial for Linguistics
 author:
 - Richard Soulliere
-date: 2015-10-07
+date: 2015-10-08
 reviewers:
 
 layout: default
@@ -17,14 +17,16 @@ Hello (applied) linguists!  In an effort to colloborate and share your work, I h
 * share your research easily with others
 * enable you to integrate content from multiple sources \(i.e. multi-modal\)
 
-Github can enable you to do so much more, but the following tutorial covers the basics.  Here I describe how to:
+Github can enable you to do so much more, but the following tutorial covers the basics.  Here I describe how to do the following on your computer:
 
-<p><ul style="list-style:none"><li><a href="#install">download and install github</a></li>
-<li><a href="#fork">fork - meaning to get repositories others have created</a></li>
-<li><a href="#work">work with file repositories both you and others create</a></li>
-<li><a href="#sync">keeping nsync</a></li>
-<li><a href="#imp">implications for your research</a></li>
-<li><a href="#conclude">some concluding thoughts and useful links/references</a></li></ul></p> 
+<p><dl><dd><a href="#install">download and install github</a></dd>
+<dd><a href="#fork">fork - meaning to get repositories others have created</a></dd>
+<dd><a href="#work">work with file repositories both you and others create</a></dd>
+<dd><a href="#sync">keeping nsync</a></dd>
+<dd><a href="#imp">implications for your research</a></dd>
+<dd><a href="#conclude">some concluding thoughts and useful links/references</a></dd></dl></p> 
+
+Technically you can work with repository files online, but it's a little awkward when starting out. I am addicted to right-clicking, what can I say?  By working on your machine you can do what you usually do with files \(like rename, delete, open, etc. really easily\) in the way you are accustomed.
 
 <a name="install"></a>
 ##First Steps: Download & Install
@@ -36,33 +38,37 @@ There are two FREE programs you will need to download and they are:
 They are both compatible with PCs, Macs, and other platforms. Once both are installed, continue reading.
 
 ###Notes
++ If you don't know markdown or HTML, don't sweat it!
 + You can expect Sublime Text to replace word processors and even simple HTML editors!!! Sublime text creates markdown files, which allow you to create files just like this one!
 + Do download the desktop version of github and be sure to save your files in the GitHub folder you specify during installation from hereonin because that's where github looks.
 + Coding a file using Sublime Text can be done using markdown or HTML.
 
 <a name="fork"></a>
 ##Next Step: Fork
-One thing you can do to give yourself a leg up if you have not worked with github before is to **Fork** tsis repository.  This will give you some code to copy and paste because you will then have all the files - no viruses - in this repository I created for this tutorial.  To do so, follow these steps:
+One thing you can do to give yourself a leg up if you have not worked with github before is to **Fork** this repository.  This will give you some code to copy and paste into your own files because you will then have all the files - no viruses - in this repository I created for this tutorial.  To do so, follow these steps:
 
 1. go to the [github website](https://github.com) and login if you already haven't
-2. in the search bar type **tutorial linguists**
+2. in the search bar type **tutorial linguists** \(it's ok if you are not a linguist\)
 3. click on the link that reads **80masters/github-tutorial-for-linguists**
-4. on the top-right of the screen, you will see a button labelled **Fork**, click it ![Fork](https://github.com/80masters/Github-Tutorial-for-Linguists/raw/master//images/fork.jpg)
+4. on the top-right of the screen, you will see a button labelled **Fork**, click it
+<p><img src="\images\fork.jpg" alt="Fork"></p>
 
-You could stop here and do stuff only online, but that I find a little cumbersome, so take it to the next level and continue.
+You could stop here and do stuff only online, but that I found a little cumbersome at first, so take it to the next level and continue.
 
 5. open the desktop version of github
 6. click on the **\+** in the top-left corner
-7. click on **clone to desktop** that should appear near the top-center of the screen
+7. click on **clone in desktop** that should appear near the top-center of the screen
+<p><img src="\images\clone.jpg" alt="Clone"></p>
 8. click on **Github-Tutorial-for-Linguists**
 9. click on the checkmark near the bottom-center of your screen 
 
-You now have an additional folder on your computer in the github folder you chose when installing github. In that additional folder you will find the files for this tutorial that you can edit, copy-n-paste, and/or delete at your leisure!
+You now have an additional folder on your computer in the github folder you chose when installing github. In that additional folder, you will find the files for this tutorial that you can edit, copy-n-paste, and/or delete at your leisure!
 
-###Problem: You now have 2 versions.  The online version \(you will unlikely edit directly unless you are using someone else's computer\) and the one on your computer \(which you will be playing around with\).  For now, stick with using the one on your desktop while I first show you how to work with these files.  Then, we will keep the version on your desktop in sync with the online version and then take the modifications you made and tell me to incoporate them into the original \(unless you write a tutorial on something completely different, in which case, great\).
+###Problem:
+You now have 2 versions.  The online version \(you will unlikely edit directly unless you are using someone else's computer\) and the one on your computer \(which you will be playing around with\).  For now, stick with using the one on your desktop while I first show you how to work with these files.  Then, we will keep the version on your desktop in sync with the online version and then take the modifications you made and tell me to incoporate them into the original \(unless you write a tutorial on something completely different, in which case, great\).
 
 ###Notes:
-+ You can add files to the tutorial repository simply by copying them to that folder.  They will be uploaded as part of step 7 \(Commit to master\).
++ You can add files to the tutorial repository simply by copying them to that folder.  They will be uploaded as part of Commit to Master.
 + The above are the steps to follow when making changes to repositories that you or others create.  To integrate a change into the master copy someone else originally created, one additional step is needed and that is, to initiate a pull request, by clicking on those words in the top-right of your github desktop screen.  Don't worry, if they don't want to accept the changes, they can easily revert back to an earlier version. In other words, make mistakes because it is super-easy to recover from them using github!
 
 <a name="work"></a>
@@ -98,27 +104,31 @@ with the markdown version:
 >\!\[Funky Sound Wave\]\(https://github.com/80masters/Github-Tutorial-for-Linguists/raw/master//images/sound_wave.jpg?raw=true)
 
 ###Notes:
-+ Files created with markdown coding do not allow embedding of sound files.  It would not be possible to convert these to HTML, doc, and pdf files is that was the case!  Still, giving the power of choosing what to download to the user/reader is fine.
++ Files created with markdown coding do not allow embedding of sound files.  It would not be possible to convert these to HTML, doc, and pdf files if that was the case!  Still, giving the power of choosing what to download to the user/reader is fine.
 + With this multi-modal functionality, you can have impressive appendices and links throughout your work.  I will leave you with your imagination.
-+ The markdown coding for your files will depend on your username, the folder structure you use, and the names you give your files.  In the sound wave example,, 80 masters is my user name, then there's the name I gave the repository, raw and master are required along with the double-slash, then the sub-folder within the repository, then the file name.  Practice once, get it right, then copy and paste!
++ The markdown coding for embedding or linking files you include will depend on your username, the folder structure you use, and the names you give your files.  In the sound wave example; 80masters is my user name, then there's the name I gave the repository, raw and master are required along with the double-slash, then the sub-folder within the repository, then the file name.  Practice replacing your details with one of your files, get it right, then you have a line of code that can be copied with minimal changes required!
 + Clearly, HTML is simpler as it only requires the folder structure and file name. The stuff after alt is the caption.
 
 <a name="sync"></a>
 ##Keeping NSync
 
-Ok, so you have done lots of modifications to the version of this tutorial on your computer.  Time to sync it with the online version or nobody will have access to it \(plus it serves as a backup to the one on your computer\). Here's how you do that:
+Ok, so you have done lots of modifications to the version of this tutorial on your computer.  Time to sync it with the online version or nobody will be able to see it \(plus it serves as a backup to the version on your computer\). Here's how you do that:
 
 1. open the tutorial index file using Sublime Text
-2. make the changes
+2. make some changes
 3. save the file \(in sublime text\)
 4. on the desktop version of github, select the tutorial github on the far right
 5. then click on the broken circle
-<p><img src="\images\broken_circle.jpg" alt="broken circle"></p>
+<p><img src="\images\broken _circle.JPG" alt="broken circle"></p>
 6. type in a brief description of the change \(if you don't do this then you can't sync\)
-<p><img src="\images\commit_prep.jpg" alt="Commit to Master area"></p>
+<p><img src="\images\commit_prep.JPG" alt="Commit to Master area"></p>
 7. click on *Commit to Master* near the bottom-center of your screen
 8. click on sync near the top-right of your screen
-<p><img src="\images\top-right-syncing.jpg" alt="Top-Right area"></p>
+<p><img src="\images\top-right-syncing.JPG" alt="Top-Right area"></p>
+
+As soon as syncing has been completed, the updates to the version you forked are now available online. The next question is how to take those modifications and tell me that you want them on my master copy \(seeing as everyone who has forked my version would likely want to see your updates, too\).  This requires you to make a pull request.  How do you do that?
+
+You see in the image above with the sync button how there's also a pull request button?  If and only if you have actually made some changes, then you can click on the pull request button.
 
 <a name="imp"></a>
 ##Implications for Research
@@ -137,6 +147,7 @@ Additional functionalities for github you may be interested in exploring include
 * creating pdfs from markdown files
 * funky formatting using HTML tags
 * using wget to backup webpages or an entire website
+* using Jekyll to create a website
 
 Finally, if you want funky formatting and alignments, you will need to explore html coding, although do not be dismayed as it can be learned very quickly.  If you want some text in bold, guess what you do in html?  First, you tell it where the bold begins and where the bold ends and that is it!  So
 
