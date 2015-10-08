@@ -9,7 +9,7 @@ layout: default
 ---
 
 #Introduction#
-Today, Beth and I looked at a number of systems for taking notes to aid in our research. We chose to download Sublime Text 3. Our opinion on the program is that it may be good for taking notes. It claims to make changes between projects with ease. One that is easily read or converted by any machine. We both found this to be a useful tool for possibly doing our research or writing up or notes from a conference. However, we did think Trailbazer would be a wonderfully useful tool; however, you cannot use it on a Windows system. 
+Today, Beth and I looked at a number of systems for taking notes to aid in our research. We chose to download Sublime Text 3. Our opinion on the program is that it may be good for taking notes. It claims to make changes between projects with ease. One that is easily read or converted by any machine. We both found this to be a useful tool for possibly doing our research or up notes from a conference. However, we did think Trailbazer would be a wonderfully useful tool; however, you cannot use it on a Windows system. 
 
 #Software & Setup
 We used Sublime Text 3038, and followed the directions, which made it fairly easy to set up and use immediately. According to the homepage, this is a sophisticated text editor for code, makeup, and prose. I have not had the time to try out the program but it does look interesting. 
