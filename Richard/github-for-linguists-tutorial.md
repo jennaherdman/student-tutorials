@@ -2,14 +2,14 @@
 title: Github Tutorial for Linguistics
 author:
 - Richard Soulliere
-date: 2015-10-08
+date: 2015-10-09
 reviewers:
 
 layout: default
 ---
 
 
-#Github Tutorial for Linguistics
+#Github Tutorial for Linguists
 
 Hello (applied) linguists!  In an effort to colloborate and share your work, I have created this mini-tutorial for you to make use of a poowerful tool that will:
 * keep track of changes you make so you can go back to an earlier version
@@ -119,7 +119,7 @@ Ok, so you have done lots of modifications to the version of this tutorial on yo
 3. save the file \(in sublime text\)
 4. on the desktop version of github, select the tutorial github on the far right
 5. then click on the broken circle
-<p><img src="\images\broken _circle.JPG" alt="broken circle"></p>
+<p><img src="\images\broken_circle.JPG" alt="broken circle"></p>
 6. type in a brief description of the change \(if you don't do this then you can't sync\)
 <p><img src="\images\commit_prep.JPG" alt="Commit to Master area"></p>
 7. click on *Commit to Master* near the bottom-center of your screen
@@ -128,7 +128,7 @@ Ok, so you have done lots of modifications to the version of this tutorial on yo
 
 As soon as syncing has been completed, the updates to the version you forked are now available online. The next question is how to take those modifications and tell me that you want them on my master copy \(seeing as everyone who has forked my version would likely want to see your updates, too\).  This requires you to make a pull request.  How do you do that?
 
-You see in the image above with the sync button how there's also a pull request button?  If and only if you have actually made some changes, then you can click on the pull request button.
+You see in the image above with the sync button how there's also a pull request button?  If and only if you have actually made some changes, then you can click on the pull request button. Once the pull request is made, the person from whom you forked the repository will then have the option to accept or deny the changes you have made.  If you make additional changes while they are scratching their head, you have to wait for them to make a decision before submitting another pull request \(for that same repository\).  Anyway, click on the create pull request button, the web version will pop open, fill in some details about the changes you made, and then click on **Create Pull Request**. Then you just have to wait.
 
 <a name="imp"></a>
 ##Implications for Research
@@ -167,6 +167,8 @@ The following are some links I found very useful:
 * [creating pages in markdown (i.e. markdown syntax)](https://daringfireball.net/projects/markdown/syntax)
 * [github privacy pricing - monthly rates for privacy options](https://github.com/pricing)
 * [HTML formatting - tons of examples here](http://www.w3schools.com/html/html_formatting.asp)
+* [Pandoc - free markdown-to-PDF converter](http://pandoc.org/installing.html)
+* [repository for creating ready-to-upload websites quickly with Jekyll](https://github.com/barryclark/jekyll-now)
 * [wget tutorial](http://programminghistorian.org/lessons/automated-downloading-with-wget)
 
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
