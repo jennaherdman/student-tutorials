@@ -44,6 +44,8 @@ you can name this however you'd like
 So now you know how to download nvALT, make a new note, search for previous notes, and a few features of the program such as exporting and changing a note to HTML. I would suggest exploring nvALT on your own to find more cool options to take your note taking to the next level! 
 
 https://github.com/ttscoff/nv this is the link for the source code if you want to get real with this tool! The fact that the source code is open on github is the reason why you can download this newer version of Notational Velocity. If you go to this website: http://brettterpstra.com/projects/nvalt/ it will take you through the features of Notational Velocity, and the additional features added by others (Elastic Threads and Brett Terpstra) to enhance this tool for your benefit!
+
+http://notational.net/ has more information about the uses of Notational Velocity 
  
 what the reader now knows about the tool, suggestions on further directions to take the tool, readings (if available) where the tool was used to generate new insights, etc.
 
