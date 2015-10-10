@@ -2,7 +2,7 @@
 title: Github Tutorial for Linguistics
 author:
 - Richard Soulliere
-date: 2015-10-09
+date: 2015-10-10
 reviewers:
 
 layout: default
@@ -11,7 +11,7 @@ layout: default
 
 #Github Tutorial for Linguists
 
-Hello (applied) linguists!  In an effort to colloborate and share your work, I have created this mini-tutorial for you to make use of a poowerful tool that will:
+Hello (applied) linguists!  In an effort to colloborate and share your work, I have created this mini-tutorial for you to make use of a powerful tool that will:
 * keep track of changes you make so you can go back to an earlier version
 * prevent the need for buying software products \(even MS Office\)
 * share your research easily with others
@@ -21,12 +21,12 @@ Github can enable you to do so much more, but the following tutorial covers the 
 
 <p><dl><dd><a href="#install">download and install github</a></dd>
 <dd><a href="#fork">fork - meaning to get repositories others have created</a></dd>
-<dd><a href="#work">work with file repositories both you and others create</a></dd>
+<dd><a href="#work">work with file repositories either you and/or others create</a></dd>
 <dd><a href="#sync">keeping nsync</a></dd>
 <dd><a href="#imp">implications for your research</a></dd>
 <dd><a href="#conclude">some concluding thoughts and useful links/references</a></dd></dl></p> 
 
-Technically you can work with repository files online, but it's a little awkward when starting out. I am addicted to right-clicking, what can I say?  By working on your machine you can do what you usually do with files \(like rename, delete, open, etc. really easily\) in the way you are accustomed.
+Technically you can work with repository files online, but it's a little awkward when starting out. By working on your machine you can do what you usually do with files \(like rename, delete, open, etc. really easily\) in the way you are accustomed. I am addicted to right-clicking, what can I say?
 
 <a name="install"></a>
 ##First Steps: Download & Install
@@ -38,10 +38,10 @@ There are two FREE programs you will need to download and they are:
 They are both compatible with PCs, Macs, and other platforms. Once both are installed, continue reading.
 
 ###Notes
++ Coding a file using Sublime Text can be done using markdown or HTML.
 + If you don't know markdown or HTML, don't sweat it!
 + You can expect Sublime Text to replace word processors and even simple HTML editors!!! Sublime text creates markdown files, which allow you to create files just like this one!
 + Do download the desktop version of github and be sure to save your files in the GitHub folder you specify during installation from hereonin because that's where github looks.
-+ Coding a file using Sublime Text can be done using markdown or HTML.
 
 <a name="fork"></a>
 ##Next Step: Fork
@@ -56,7 +56,7 @@ One thing you can do to give yourself a leg up if you have not worked with githu
 You could stop here and do stuff only online, but that I found a little cumbersome at first, so take it to the next level and continue.
 
 5. open the desktop version of github
-6. click on the **\+** in the top-left corner
+6. click on the blue **\+** in the top-left corner
 7. click on **clone in desktop** that should appear near the top-center of the screen
 <p><img src="\images\clone.jpg" alt="Clone"></p>
 8. click on **Github-Tutorial-for-Linguists**
@@ -104,10 +104,11 @@ with the markdown version:
 >\!\[Funky Sound Wave\]\(https://github.com/80masters/Github-Tutorial-for-Linguists/raw/master//images/sound_wave.jpg?raw=true)
 
 ###Notes:
-+ Files created with markdown coding do not allow embedding of sound files.  It would not be possible to convert these to HTML, doc, and pdf files if that was the case!  Still, giving the power of choosing what to download to the user/reader is fine.
++ Files created with markdown coding do not allow embedding of sound files.  It would not be possible to convert to HTML, doc, or pdf files if that was the case!  Still, giving the power of choosing what to download to the user/reader is fine.
 + With this multi-modal functionality, you can have impressive appendices and links throughout your work.  I will leave you with your imagination.
 + The markdown coding for embedding or linking files you include will depend on your username, the folder structure you use, and the names you give your files.  In the sound wave example; 80masters is my user name, then there's the name I gave the repository, raw and master are required along with the double-slash, then the sub-folder within the repository, then the file name.  Practice replacing your details with one of your files, get it right, then you have a line of code that can be copied with minimal changes required!
 + Clearly, HTML is simpler as it only requires the folder structure and file name. The stuff after alt is the caption.
++ The file name and extension is case-sensitive, so if you name your file something.JPG the JPG part must be capitalized in any reference to it in your markdown file, too!
 
 <a name="sync"></a>
 ##Keeping NSync
@@ -167,7 +168,7 @@ The following are some links I found very useful:
 * [creating pages in markdown (i.e. markdown syntax)](https://daringfireball.net/projects/markdown/syntax)
 * [github privacy pricing - monthly rates for privacy options](https://github.com/pricing)
 * [HTML formatting - tons of examples here](http://www.w3schools.com/html/html_formatting.asp)
-* [Pandoc - free markdown-to-PDF converter](http://pandoc.org/installing.html)
+* [Pandoc - merging multiple markdown files and convert-to-PDF](http://pandoc.org/installing.html)
 * [repository for creating ready-to-upload websites quickly with Jekyll](https://github.com/barryclark/jekyll-now)
 * [wget tutorial](http://programminghistorian.org/lessons/automated-downloading-with-wget)
 
