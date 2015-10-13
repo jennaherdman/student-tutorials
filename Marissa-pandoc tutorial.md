@@ -45,7 +45,7 @@ Converting to PDF is only slightly different, because it uses LaTeX to work.  Ty
 
 # Conclusion
 
-Congratulations!  You can now convert markdown to HTML and PDF.  With a few different keystrokes, you can also use Pandoc to convert from text to ___  The universe is in your file format.  
+Congratulations!  You can now convert markdown to HTML and PDF.  With a few different keystrokes, you can also use Pandoc to convert from text to a multitude of different formats.  The universe is in your file format.  
 
 Now you can sit back and feel proud of the magic you performed.  
 
