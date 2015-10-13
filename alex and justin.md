@@ -1,5 +1,5 @@
 ---
-title: Jekyll Tutorial - Test 2
+title: Jekyll Tutorial 
 authors:
 - Alex Nahas and Justin Langille
 date: 2015-10-12
