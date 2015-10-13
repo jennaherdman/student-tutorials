@@ -1,7 +1,7 @@
 ---
 title: a template for student-written tool tutorials
 authors:
-- Shawn Graham
+- Jessie Raymond
 date: 2015-08-12
 reviewers:
 - n/a
