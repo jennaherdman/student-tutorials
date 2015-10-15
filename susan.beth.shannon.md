@@ -30,7 +30,6 @@ Notice here the yellow hexagons; they are the waystations. Here they represent t
 
 #Conclusion 
 
-what the reader now knows about the tool, suggestions on further directions to take the tool, readings (if available) where the tool was used to generate new insights, etc.
 So what are the greater applications of a tool like Trailblazer? The most obvious applications are for online research. When I think of performing a literature review or research paper, we can certainly how Trailblazer would prevent “source amnesia” or lost information. It would also give a really clear overview of the research path as a whole which would really help to identify gaps in your research . For group projects, you could also compare trails, allowing members to see if anyone missed anything or found something no one else did.
 The other implication, as was mentioned earlier, was for educational purposes.  While the app is still in it’s beta stages, there is discussion about making the app more collaborative, maybe adding a function that would allow someone like an administrator to see more than one at a time.  However, even if that never happens, it is possible to extract the data from trails in order to compare many of them at once.  In any event, this tool can be used for a variety of really interesting purposes. 
 
