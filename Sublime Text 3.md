@@ -44,9 +44,7 @@ Where can Sublime Text be used?
    
    ctl+D to find the same word within a text
   
-*GOTO function - allows you to find a function, line, or word between or within files quite quickly with the keying of a few  buttons. 
-
-Ctl+P
+*GOTO function - allows you to find a function, line, or word between or within files quite quickly with the keying of a few  buttons. Ctl+P
 
 *Command palette -allows you to set up your document with ease and find things with one or two commands, instead of a combination of complex key strokes and commands. 
 
