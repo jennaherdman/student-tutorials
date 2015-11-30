@@ -11,11 +11,11 @@ layout: default
 
 #Introduction#
 
-Github Visualizer is exactly that, a website that allows users to produce a visualization of github repositories. This site shows the scale of repositories and the amount of forks and pulls, and by who, have occurred within those repositories.
+[Github Visualizer] (http://ghv.artzub.com/) is exactly that, a website that allows users to produce a visualization of github repositories. This site shows the scale of repositories and the amount of forks and pulls, and by who, have occurred within those repositories.
 
 #Software & Setup
 
-The visualizer is all in browser, so there is no download, or setup needed. 
+The visualizer is all in browser, so there is no download, or setup needed. Just load up the page and you're set!
 
 #Using the tool
 
