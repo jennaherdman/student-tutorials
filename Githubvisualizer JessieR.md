@@ -60,7 +60,7 @@ Clicking "Run" creates a video visualization of that data that maps the forks, a
 The visualization can be altered in a variety of ways if you hover over "run" and then "Code Swarm"
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/13.png)
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/14.png)
-![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/14.png)
+![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/15.png)
 You can see a visualization in action [here](https://www.youtube.com/watch?v=9PFmqaptheo) 
 ***
 ##Conclusion
