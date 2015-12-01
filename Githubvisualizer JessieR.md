@@ -49,7 +49,7 @@ Clicking "Run" creates a video visualization of that data that maps the forks, a
 ***
 ##Conclusion
 
-Now with a basic understanding of what data is present in the visualizer, you can use it to find mistakes, or just see how data has fared since its creation. 
-Having all that information in a concentrated area, and colour coded makes it easier to digest. 
+Now with a basic understanding of what data is present in the visualizer, you can use it to find mistakes, or just see how data has bounced between users. 
+Having all that information in a concentrated area, and colour coded makes it easier to digest, and gives an idea of the scope of a repository. 
 Enjoy!
 
