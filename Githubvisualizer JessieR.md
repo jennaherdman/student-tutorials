@@ -1,25 +1,33 @@
 ---
-title: a template for student-written tool tutorials
+title: Github Visualizer
 authors:
 - Jessie Raymond
-date: 2015-08-12
-reviewers:
-- n/a
-layout: default
+
 ---
 #GitHub Visualizer
 ***
 ##Introduction
 
 [Github Visualizer] (http://ghv.artzub.com/) is exactly that, a website that allows users to produce a visualization of github repositories. This site shows the scale of repositories and the amount of forks and pulls, and by who, have occurred within those repositories.
+![](http://s17.photobucket.com/user/Dragon_Tamer13/media/1.jpg.html)
+***
+##Terms
+
+- **Git** a version control system that focuses on data integrity 
+- **Repository** essentially a file folder
+- **Fork** is the action of copying another user's repository to your own account
+- **Pull** is a request to the original owner of the repository to incorperate your revisions or additions/removals
+- **Primary language** the code language that is most commonly used
+- **Addition** an addition to a file/repository
+- **Removal** a deletion from a file/repository
+- **Commit** a save of the data
+
 ***
 ##Software & Setup
 
 The visualizer is all in browser, so there is **no download**, or setup needed. Just load up the page and you're set!
 ***
-##Terms
 
-***
 ##Using the tool
 
 To begin enter in any username from github at the top of the page under "GitHub username", press enter after entering the username. Making sure the "show" button is white instead of pale blue, click it to be shown a visualization of the user's repositories. For this tutorial I will be using [Freecodecamp] (https://github.com/FreeCodeCamp) as an example, which is an [open source community focusing on making coding education accessible](http://www.freecodecamp.com/) . 
@@ -37,7 +45,7 @@ In the individual repository view there's a timeline of changes to the files. Gr
 The orange dots represent **commits**. 
 The bottom right corner has an index that allows you to see who is adding, deleting or modifying lines and files.
 
-Clicking "Run" creates a video visualization of that data that maps the forks, and pulls chronologically, represented by coloured dots reflecting their primary lanugage, that move from one user icon to another.
+Clicking "Run" creates a video visualization of that data that maps the forks, and pulls chronologically, represented by coloured dots reflecting their primary lanugage, that move from one user icon to another. You can see a visualization in action [here](https://www.youtube.com/watch?v=9PFmqaptheo) 
 ***
 ##Conclusion
 
