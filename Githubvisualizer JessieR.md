@@ -59,17 +59,18 @@ The bottom right corner has an index that allows you to see who is adding, delet
 Clicking "Run" creates a video visualization of that data that maps the forks, and pulls chronologically, represented by coloured dots reflecting their primary lanugage, that move from one user icon to another.
 The visualization can be altered in a variety of ways if you hover over "run" and then "Code Swarm"
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/13.png)
+Here's the inital settings, and their visualization 
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/14.png)
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/15.png)
 
 
 
-You can see a visualization in action [here](https://www.youtube.com/watch?v=9PFmqaptheo) 
+You can see that visualization in action [here](https://www.youtube.com/watch?v=XOrY2GWo5-U&feature=youtu.be&hd=1) 
 
 See how changing settings to this alters the basic visualization style:
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/settings.png)
 
-Check out that visualizatin running [here!] (https://www.youtube.com/watch?v=309hHDfzGhc)
+Check out that visualization running [here!] (https://www.youtube.com/watch?v=309hHDfzGhc)
 ***
 ##Conclusion
 
