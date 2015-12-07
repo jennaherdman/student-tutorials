@@ -78,6 +78,7 @@ The text I converted was simple and it was easy to imagine what it would look li
 Essentially, YAML is a block that contains metadata.  In our case, we will be using it to contain title info that will be displayed in a specific way.  Pandoc is able to understand YAML blocks to a point.  Some more advanced instances require packages to be installed and very specific formatting.  For basic purposes though, what comes with Pandoc and LaTeX can suffice.  
 
 What designates a block of text as YAML is its beginning with three hyphens and ending the same way, or with three dots.  This is what it one looks like:
+
 ![metadata block](http://i1191.photobucket.com/albums/z467/risssssy/Screen%20Shot%202015-12-06%20at%2011.41.09%20PM.png)
 That is the YAML block at the top of this tutorial!  Our template will follow a similar format.
 
