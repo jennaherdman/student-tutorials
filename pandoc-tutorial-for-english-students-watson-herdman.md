@@ -4,8 +4,7 @@ authors:
 - Allie Watson
 - Jenna Herdman
 date: 2014-03-03
-reviewers:
-
+reviewers: DIGH5000
 layout: default
 ---
 
@@ -41,6 +40,7 @@ how to install the tool or other prerequisites for using it
 ##Setup
 
 After downloading, go through the regular procedures for installing a program. However, when you have finished, you might have difficulty finding the application for pandoc. This is because there is no graphic user interface in the way most applications we download are presented. It functions within the command-line of your computer. More detailed information can be found [on the pandoc website](http://pandoc.org/getting-started.html “pandoc website”)
+
 
 For Mac users, you open Pandoc in /Applications/Utilities, then clicking the application called Terminal (or hit cmd+space and type in “terminal”). A small, white window will open. Welcome to your new control hub! 
  
@@ -93,52 +93,80 @@ To convert my “testytest1.md” I use this command:
 
 This is like saying: dear pandoc, please find this file and convert it *from* (-f) this format (markdown) *to* (-t) this format into a new file with this name (-o). Then you can test that it worked by typing in *ls*, and there should be testytest2.html waiting for you. Then open it by typing in: **open testytest2.html.** 
 
+Here's what you end up with:
+![HTML](https://github.com/SAllieW/DecemberUpgrade/blob/master/TestytestHTML.png?raw=true) 
+
 So that’s html. But if you want to turn it into a Word document, then it’s the same route, but with the final product having a docx extension. Let’s try: 
 
 **pandoc testytest1.md -f markdown -t docx -s -o testytest3.docx** 
 
-And there they should be, all sitting in the directory, all created with marked down code and transformed through Pandoc. 
+The result:
+![docx](https://github.com/SAllieW/DecemberUpgrade/blob/master/TestytestDocx.png?raw=true)
 
-Or PDF (for which you need MacTeX installed, which you can [do here](http://tug.org/mactex/mactex-download.html “do here”)): 
+And there they should be, your .md, .html, and .docx files all sitting in the directory, all created with marked down code and transformed through Pandoc. 
 
-**pandoc testytest1.md -f markdown -t pdf -s -o testytest4.pdf**
+There is also the option to convert into PDF (for which you need MacTeX installed, which you can [do here](http://tug.org/mactex/mactex-download.html “do here”)). This requires a small addition to the command line; "-t latex" means basically, "Hey Pandoc, use this tool called latex for this conversion." So it will look like this: 
+
+**pandoc -t latex testytest1.md -f markdown -t pdf -s -o testytest4.pdf**
 
 So now you’ve had the chance to familiarize with Pandoc and get some experience with the way it can manipulate your files. This is useful if you're switching between computers that have different applications for editing these files, and in easily converting said files between formats but maintaining the internal formatting you desire. 
 
 ## Using Pandoc for Academic Writing
-A promising way to easily format your academic papers is by using YAML (Yet Another Markup Language). By inserting a YAML metadeta block (a chunk of YAML text that acts as a set of instructions for the text) you can format the document produced by Pandoc. 
 
-Every block must begin and end with three hyphens (---) (it can also end with three periods (...)) to delineate which chunk of text is the YAML block. 
+A promising way to easily format your academic papers is by using YAML (Yet Another Markup Language). By inserting a YAML metadeta block (a chunk of YAML text that acts as a set of instructions for the text) you can add a title and format the document produced by Pandoc. This will be important for the next section of the tutorial about citations. 
 
-Here is a [template](https://pbs.twimg.com/media/CRJhdh3WwAAhnBR.png) from a [website](http://kieranhealy.org/blog/archives/2014/01/23/plain-text/) that explains YAML blocks.
+Every block must begin and end with three hyphens (---) to delineate which chunk of text is the YAML block. 
 
-It should look like [this](http://kieranhealy.org/files/misc/pandoc-template-html-output-sample.png) after it is converted from markdown through Pandoc.
+The most basic YAML block looks like this at the beginning of your document:
 
-Here is [mine](https://pbs.twimg.com/media/CRJhdeZWgAAvPGS.png).
+![SimpleYAML](https://github.com/SAllieW/DecemberUpgrade/blob/master/YAMLsimple.png?raw=true)
 
-It ends up looking like [this](https://pbs.twimg.com/media/CRJhddjW8AEAoaU.png).
+When you run it through Pandoc and turn it into, say, a PDF, the title should look like this:
 
-So the idea of YAML is great - that you can input simple formatting commands without using elaborate codes. However, the implementation remains ... unclear.
+![YAMLPDF](https://github.com/SAllieW/DecemberUpgrade/blob/master/YAMLsimplePDF.png?raw=true)
 
-A simpler, non-YAML metadata block you can use looks like this:
+For a great overview on using YAML blocks, see [Marissa's tutorial](https://github.com/digh5000/student-tutorials/blob/master/Marissa-pandoc%20tutorial.md)
 
-% title
+##Citations and Bibliographies
 
-% authour(s) 
+The advantages of using Pandoc as part of your academic workflow are not only streamlining the process by making multiple output forms possible, but also eliminating the need for fiddling with finicky citation formats. This section will cover shortcuts for citations and producing bibliography/works cited pages.
 
-% date
+This step of the tutorial requires a citation managing program. This can include commonly used programs such as Zotero, Endnote, or Mendeley. It simply has to be a program that can produce a BibTex file. 
 
-When I input [this](https://pbs.twimg.com/media/CRJlog3WwAAJInm.png) .md file into Pandoc and convert to .html, I get [this](https://pbs.twimg.com/media/CRJlog3XAAASCyL.png).
+I have exported a citation from a sociology text to a .bib file. The file itself looks like this: ![BourdieuBib](https://github.com/SAllieW/DecemberUpgrade/blob/master/BourdieuBib.png?raw=true)
+
+Save this file into the same file folder as the testytest1.md file that we have been experimenting with. It's important that the BibTex file be in the same folder as the document that you want to put the citation into.
+
+Now, open up the testytest1.md file and lets insert a quotation and a citation. Something like this:  ![quote](https://github.com/SAllieW/DecemberUpgrade/blob/master/InTextCitation.png?raw=true)
+
+The important part of this citation is that what comes after "@" matches the name of the .bib file's title, or what comes after the "article{" in the BibTex reference. In this case, it is the "Bourdieu1983" article title that must be included in the document. This will let Pandoc know where to insert the citation details you want. 
+
+But how will Pandoc know where to get the bibliographic information from? We need to beef up our YAML block with a line that tells Pandoc what the title of the .bib file is and to look for it in the same folder as the souce (-s testytest) file.
+
+So here is what your YAML block looks like with a bibliography line: ![bib](https://github.com/SAllieW/DecemberUpgrade/blob/master/YAMLbib.png?raw=true).
+
+It's also a good idea to add a title for the bibligraphy to appear under, so go ahead and add a "Works Cited" section to the bottom of the document.
+
+Finally, run this line of code through Pandoc (AND PRAY!)
+
+pandoc -t latex -S -s testytest1.md --filter pandoc-citeproc -o testytest6.pdf
+
+This code basically tells Pandoc, "Hey, use latex, be smart about it, the source is testytest1.md, you need to deal with citation tags, and the output will be testytest6.pdf"
+
+If all goes well, you should end up with this:
+![final](https://github.com/SAllieW/DecemberUpgrade/blob/master/FinalResult.png?raw=true)
+The last line of code on the command line (top left) is what turned the .md file (on the right) into the PDF you can see in the bottom left.
+
+Et voila! Once you have everything in place, with a simple line of code you can transform a document that simply references citations, to a fully functioning document with in-text citations and a works cited page that didn't require you to type any of the information yourself. Ah, technology is a wonderful thing.
 
 #Conclusion
 
 - there are a wide variety of programs that can be used in conjunction with Pandoc because markdown is easily read and converted. For example, Zotero can help users manage and structure documents in larger projects.
 - Learning about Pandoc and familiarizing yourself enough to use it as a tool is **tough.** It involves understanding not only the Pandoc commands, but also writing text that is marked down. 
-- We suggest that after experimenting with the tool in the ways we’ve explained, you explore into how it can be used for bibliographies and citations. These would be very useful for English majors, especially when switching between citation styles. 
+- We suggest that after experimenting with the tool in the ways we’ve explained, you explore how it can be used when switching between citation styles. 
 
 ###Further resources 
 - [Schmidt: basics of Markdown](http://benschmidt.org/2014/09/05/markdown-historical-writing-and-killer-apps/ “basics of Markdown”)
 -  [Tenen and Wythoff: using Pandoc and Markdown for academic papers](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown “Tenen and Wythoff”)
 -  [Pandoc.org: A less condensed but more comprehensive guide to what we’ve shown you today](http://pandoc.org/getting-started.html)
-
 
