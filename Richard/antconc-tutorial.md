@@ -82,22 +82,22 @@ If you want to search for phrases \(e.g. in spite of\), click over to the 'Collo
 
 <p><img src="\images\collocates.JPG" alt="Collocates"></p>
 
-After running this using a specific root word, you can also click on the 'Word List' tab \(image below\). 
+After running this using a specific root word, you can also click on the 'Word List' tab \(image below\). This shows how often specific words occurred within the left-right range set in the collocates search. Unfortunately, there is no file break-down like the word search.
 
 <p><img src="\images\w-list.JPG" alt="Word List"></p>
 
 ###Notes:
 + On the bottom-right of the Collocates tab, you can set the minimum collocate frequency. This means the results will only include instances of a word within the right-left range of the source word if it appears x number of times. If it appears 4 times in a text, but you set it to 5, it will not appear.
-+ There are additional functions within AntConc, but this tutorial covers the basics. Feel free to add details on the other functionality thorugh pull requests!
 + AutoConc does not currently support analyses of Greek and mathematical symbols.
++ There are additional functions within AntConc, but this tutorial covers the basics. Feel free to add details on the other functionality thorugh pull requests!
 
 <a name="imp"></a>
 ##Implications for Research
-One of the biggest implications in for research is scope. This tool can be applied to texts of many disciplines including geography, physics, history, and linguistics. All that is required is a text and an intent to search for occurrences of a particular meaning. What that intent is, well, that I leave to the principles of your discipline, research design, and ethics.
+One of the biggest implications for research is scope. This tool can be applied to texts of many disciplines including geography, physics, history, and linguistics. All that is required is a text and an intent to search for occurrences of a particular meaning. What that intent is, well, that I leave to the principles of your discipline, research design, and ethics.
 
 It is unlikely you will already know what to expect with the analysis of a given text. As part of your analysis, it would be prudent to set search string criteria \(e.g. minimum frequency\) outside of your pre-determined range. By looking at results that lie just outside the bounds of your proposed search criteria, you can enrich your discussion/analysis be determining how those search criteria skew the results - if at all. Plus, you may stumble on an interesting revelation that only quick big data searches can do in only a few seconds - a paltry price to pay.
 
-As with the use of any texts not created by you, the researcher, intellectual property \(IP\) issues arise immediately. Consult the relevant IP and publishing law\(s\) in your country. Also, you may be able to study the texts, but you may not be able to publish the results! For most countries, while the write-up of the research is yours, the original texts are not; however, seeking permission from the creator may mitigate IP and publishing concerns. Even when operating under an educational insitution, choose wisely in advance.
+As with the use of any texts not created by you, the researcher, intellectual property \(IP\) issues arise immediately. Consult the relevant IP and publishing law\(s\) in your country. Also, you may be able to study the texts, but you may not be able to publish the results! For most countries, while the write-up of the research is yours, the original texts are not; however, seeking permission from the creator may mitigate IP and publishing concerns. The take-home message is simple: even when operating under an educational insitution, choose wisely in advance.
 
 
 <a name="conclude"></a>
