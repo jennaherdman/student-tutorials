@@ -1,8 +1,8 @@
 ---
-title: a template for student-written tool tutorials
+title: AntConc Tool Tutorial
 authors:
-- Shawn Graham
-date: 2015-08-12
+- Allie Watson
+date: 2016-01-26
 reviewers:
 - n/a
 layout: default
